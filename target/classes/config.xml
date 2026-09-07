@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Service class ka bean setup -->
-    <!-- <bean id="serviceBean" class="com.beeru.survice.CLASS_NAME_HERE"/> -->
+    <bean id="geek" class="com.beeru.survice.Geek"/>
+    <bean id="java" class="com.beeru.survice.java"/>
+    <bean id="maven" class="com.beeru.survice.Maven"/>
 
 </beans>
